@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mattgbrich/laughing-octo-train/issues"
   },
-  "homepage": "https://github.com/mattgbrich/laughing-octo-train#readme"
+  "homepage": "https://github.com/mattgbrich/laughing-octo-train#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
 }
