@@ -20,7 +20,7 @@ function Dropdown (props) {
     };
 
     return (
-        <>
+        <React.Fragment>
             <FormControl
                 component="fieldset"
                 required={props.required}
@@ -48,7 +48,7 @@ function Dropdown (props) {
                 </Select>
             </FormControl>
             <FormHelperText>{props.helperText}</FormHelperText>
-        </>
+        </React.Fragment>
     );
 }
 
